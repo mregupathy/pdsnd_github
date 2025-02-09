@@ -1,4 +1,6 @@
 import time
+import os
+import sys
 import pandas as pd
 import numpy as np
 
@@ -84,6 +86,10 @@ def load_data(city, month, day):
 
 
 def get_df_for_city(city):
+    # Creating a check whether the file exists before reading the csv file.
+    if os.path.exists(CITY_DATA[city]) == False:
+        sys.exit("ERROR:file doesn't exists ")
+
     df = pd.read_csv(CITY_DATA[city])
     # convert to time format the Start Time
     df['Start Time'] = pd.to_datetime(df['Start Time'])
