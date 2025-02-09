@@ -87,6 +87,7 @@ def load_data(city, month, day):
 
 def get_df_for_city(city):
     # Creating a check whether the file exists before reading the csv file.
+    # Uses 2 new imports os and sys modules for this check
     if os.path.exists(CITY_DATA[city]) == False:
         sys.exit("ERROR:file doesn't exists ")
 
