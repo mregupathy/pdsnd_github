@@ -41,6 +41,9 @@ _Following SW should be existing to run this project or kindly install them with
 * The project only reads from the above mentioned csv files.
 * The project assumes a certain data format of these csv files. any other data format, the project can output incorrect values or can exit with errors
 
+### Usage
+You are free to use this source code for your education and academic purposes only.
+
 ### Credits
 * Pandas Reference Docs [ https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.month.html]
 
