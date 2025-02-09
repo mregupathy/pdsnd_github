@@ -1,4 +1,3 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
 08/Feb/2025 : Initial creation of bikeshare details project along with README file.
@@ -21,6 +20,26 @@ The project contains following functions
 **bikeshare_2.py** is the source code
 
 **.gitignore** contains the list of csv files which aren't uploaded into github
+
+### Required Software Environment
+_Following SW should be existing to run this project or kindly install them with the links given below_
+* **git** Download : [https://git-scm.com/downloads]
+* **python** Download : [https://anaconda.org/anaconda/conda]
+
+* Once installed, check out for **git bash** and launch it.
+* on git bash prompt `$` type `python --version`. my output is **Python 3.12.7**.
+
+### Steps to run the project 
+* Launch **git bash**
+* goto pdsnd_github by typing `cd` command with the directory where pdsnd_github is there
+* type `cd pdsnd_github`
+* type `ls -l`, you should see the following files **bikeshare_2.py**,  **chicago.csv** , **new_york_city.csv**, **washington.csv**. 
+* on `$` prompt type `python bikeshare_2.py`
+
+### Known Issues
+* The project assumes the above mentioned csv files are present along with the script in the same directory
+* The project only reads from the above mentioned csv files.
+* The project assumes a certain data format of these csv files. any other data format, the project can output incorrect values or can exit with errors
 
 ### Credits
 * Pandas Reference Docs [ https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.month.html]
